@@ -1,6 +1,6 @@
 const app = require("./server");
-const Contenedor = require("../../clase-4/desafio4/contenedor");
-let store = new Contenedor("../../clase-4/desafio4/products.txt");
+const Contenedor = require("./contenedor");
+let store = new Contenedor("./products.txt");
 
 app.get("/productos", (req, res) => {
 	store.getAll().then((data) => {

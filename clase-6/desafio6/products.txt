@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Alimento",
+    "price": 200,
+    "thumbnail": "https://store.com",
+    "id": 1
+  },
+  {
+    "title": "Collar",
+    "price": 100,
+    "thumbnail": "https://store.com/collar",
+    "id": 2
+  },
+  {
+    "title": "Correa",
+    "price": 150,
+    "thumbnail": "https://store.com/Correa",
+    "id": 3
+  }
+]
