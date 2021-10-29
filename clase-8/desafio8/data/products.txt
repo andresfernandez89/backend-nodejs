@@ -2,31 +2,31 @@
   {
     "title": "Alimento",
     "price": 200,
-    "thumbnail": "https://store.com",
+    "thumbnail": "https://placeimg.com/200/200/animals",
     "id": 1
   },
   {
-    "title": "Correa",
-    "price": "1000",
-    "thumbnail": "www.com",
+    "title": "Collar",
+    "price": 250,
+    "thumbnail": "https://placeimg.com/200/200/animals",
     "id": 2
   },
   {
     "title": "Correa",
     "price": "1000",
-    "thumbnail": "www.com",
+    "thumbnail": "https://placeimg.com/200/200/animals",
     "id": 3
   },
   {
     "title": "Correa",
     "price": "1000",
-    "thumbnail": "www.com",
+    "thumbnail": "https://placeimg.com/200/200/animals",
     "id": 4
   },
   {
     "title": "Correa",
     "price": "1000",
-    "thumbnail": "www.com",
+    "thumbnail": "https://placeimg.com/200/200/animals",
     "id": 5
   }
 ]

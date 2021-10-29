@@ -26,7 +26,9 @@ router.post("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-	console.log(req.params.id);
+	let id = parseInt(req.params.id);
+	store.editById(id, req.body);
+	res.send("Producto actualizado");
 });
 
 router.delete("/:id", (req, res) => {

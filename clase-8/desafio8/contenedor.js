@@ -26,12 +26,24 @@ class Contenedor {
 		}
 	}
 
+	async editById(id, obj) {
+		const fileExists = await helpers.readFile(this.path);
+		let objFile = JSON.parse(fileExists);
+		let indexObj = objFile.findIndex((element) => element.id === id);
+		let allObj = await this.getAll();
+		let arr = JSON.parse(allObj);
+		arr[indexObj].title = obj.title;
+		arr[indexObj].price = obj.price;
+		arr[indexObj].thumbnail = obj.thumbnail;
+		helpers.writeFile(arr, this.path);
+	}
+
 	async getById(id) {
 		const fileExists = await helpers.readFile(this.path);
 		if (fileExists) {
 			let objFile = JSON.parse(fileExists);
-			let objId = objFile.find((element) => element.id == id);
-			if (objId) return objId;
+			let obj = objFile.find((element) => element.id == id);
+			if (obj) return obj;
 			return null;
 		}
 	}
