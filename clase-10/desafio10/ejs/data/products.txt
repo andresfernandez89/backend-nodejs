@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Alimento",
+    "price": 200,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+    "id": 1
+  },
+  {
+    "title": "Collar",
+    "price": 250,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/fur-baby/256/Collar-256.png",
+    "id": 2
+  },
+  {
+    "title": "Correa",
+    "price": "1000",
+    "thumbnail": "https://media.istockphoto.com/vectors/simple-pet-cat-dog-brown-leather-leash-with-metal-fastener-vector-id816296336",
+    "id": 3
+  },
+  {
+    "title": "Casita",
+    "price": "1000",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/free-any-house/96/dog_house-home-256.png",
+    "id": 4
+  },
+  {
+    "title": "Pipeta",
+    "price": "2500",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/typicons-2/24/pipette-256.png",
+    "id": 5
+  },
+  {
+    "title": "Hueso",
+    "price": "300",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+    "id": 6
+  },
+  {
+    "title": "Pelota",
+    "price": "150",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/dog-supplies-flat/64/dog-09-256.png",
+    "id": 7
+  }
+]

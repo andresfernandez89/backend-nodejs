@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("../partials/head") %>
+</head>
+<body>
+    <div class="container ">
+        <h1 class="text-center mt-4">Pets Shop</h1>
+        <% if(data)  { %>
+        <h3 class="text-center m-4 text-primary"><%= title %></h3>
+        <div class="d-flex justify-content-center">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Picture</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% data.forEach((product)=>{ %>
+                    <tr>
+                        <th scope="row"><%= product.id %></th>
+                        <td><a href="/api/products/<%= product.id %>"><%= product.title %></a></td>
+                        <td><%= product.price %></td>
+                        <td><img src=<%= product.thumbnail %> alt="Product" width="75" height="75"> </td>
+                    </tr>
+                    <% }) %>
+                    </tbody>
+            </table>
+        </div>
+        <% } else { %>
+            <h3 class="mt-4 text-center text-danger">No hay Productos</h3>
+        <% } %>
+    </div>
+</body>
+</html>
