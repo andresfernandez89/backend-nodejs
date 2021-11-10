@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("../partials/head") %>
+</head>
+<body>
+    <div class="container ">
+        <h1 class="text-center mt-4">Pets Shop</h1>
+        <div class="mb-5"><%- include("../partials/form") %></div>
+        <h3 class="text-center m-4 text-primary"><%= title %></h3>
+        <div class="d-flex justify-content-center">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Picture</th>
+                    </tr>
+                </thead>
+                <tbody id="productList">
+                </tbody>
+            </table>
+        </div>
+        <div class="mb-5"><%- include("../partials/chat") %></div>
+    </div>
+    <%- include("../partials/socket") %>
+</body>
+</html>

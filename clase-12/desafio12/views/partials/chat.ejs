@@ -1,0 +1,14 @@
+<h3 class="text-center mt-5 mb-3">CHAT</h3>
+<div class="d-flex justify-content-center ">
+    <form class="row bg-secondary rounded mx-5 p-3" onsubmit="return sendMessage()">
+        <div class="col-12 text-center">
+            <label for="email" class="form-label fw-bold">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Write your email" required>
+        </div>
+        <div class="col-12" id="messages" class=""></div>
+        <div class="col-9 offset-md-1">
+            <input class="w-100" type="text" id="message" name="message" placeholder="Write a message" required>
+        </div>
+        <button type="submit" class="col-2 btn btn-primary">Send</button>
+    </form>
+</div>
