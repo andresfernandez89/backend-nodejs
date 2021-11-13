@@ -6,7 +6,7 @@ socket.on("productsList", (data) => {
 			.map((product) => {
 				return `<tr>
 			<th scope="row"> ${product.id}</th>
-					<td><a href="/api/products/ ${product.id}"> ${product.title} </a></td>
+					<td><a href="/${product.id}"> ${product.title} </a></td>
 					<td>${product.price} </td>
 					<td><img src="${product.thumbnail}"  alt="Product" width="75" height="75"> </td>
 					</tr>
@@ -37,6 +37,7 @@ const add = () => {
 };
 
 const sendMessage = () => {
+	console.log("hola");
 	let chat = {
 		email: document.querySelector("#email").value,
 		email: moment().format("DD/MM/YYYY HH:mm:ss"),
@@ -45,3 +46,27 @@ const sendMessage = () => {
 	socket.emit("msn", chat);
 	return false;
 };
+document.querySelector("#chat").addEventListener("submit", function (e) {
+	e.preventDefault();
+	let chat = {
+		email: document.querySelector("#email").value,
+		date: `[${moment().format("DD/MM/YYYY HH:mm:ss")}]`,
+		message: document.querySelector("#message").value,
+	};
+	socket.emit("msn", chat);
+	document.querySelector("#message").value = "";
+});
+socket.on("chat", (data) => {
+	let msn = data
+		.map((d) => {
+			return `
+		<ul class="d-flex justify-content-start" style="margin-bottom: 0.1rem" >
+		<div id="chatEmail"class=" bolder text-primary">${d.email}</div>
+		<div id="chatDate" class="mx-1" style="color: brown;">${d.date}</div>
+		<div id="chatMsn" class=" text-success fst-italic">${d.message}</div>
+		</ul>`;
+		})
+		.join("");
+	document.querySelector("#messages").innerHTML = msn;
+	socket.on("email", (email) => (document.querySelector("#email").value = email));
+});
