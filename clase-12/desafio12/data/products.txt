@@ -46,11 +46,5 @@
     "price": "2400",
     "thumbnail": "https://cdn1.iconfinder.com/data/icons/interior-furnishing/96/fishbowl_fish_pet_furniture_furnishing_interior_decor-128.png",
     "id": 8
-  },
-  {
-    "title": "asas",
-    "price": "1212",
-    "thumbnail": "1212",
-    "id": 9
   }
 ]

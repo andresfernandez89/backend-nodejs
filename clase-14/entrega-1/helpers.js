@@ -16,6 +16,7 @@ const readFile = async (path) => {
 		throw "The file cannot be read.";
 	}
 };
+
 const reWriteFile = async (obj, path) => {
 	try {
 		let str = JSON.stringify(obj, null, 2);
@@ -25,12 +26,4 @@ const reWriteFile = async (obj, path) => {
 	}
 };
 
-const deleteFile = async (path) => {
-	try {
-		fs.promises.unlink(path);
-	} catch {
-		throw "No se pudo borrar el archivo.";
-	}
-};
-
-module.exports = {readFile, writeFile, reWriteFile, deleteFile};
+module.exports = {readFile, writeFile, reWriteFile};

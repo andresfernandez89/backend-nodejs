@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "timestamp": "111111113",
+    "product": [
+      {
+        "id": 3,
+        "timestamp": "",
+        "title": "Correa",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+        "code": 1003,
+        "thumbnail": "https://media.istockphoto.com/vectors/simple-pet-cat-dog-brown-leather-leash-with-metal-fastener-vector-id816296336",
+        "price": 500,
+        "stock": 5
+      },
+      {
+        "id": 4,
+        "timestamp": "",
+        "title": "Alimento",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+        "code": 1001,
+        "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+        "price": 400,
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": "111111113",
+    "product": [
+      [
+        {
+          "id": 1,
+          "timestamp": "",
+          "title": "Correa",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+          "code": 1003,
+          "thumbnail": "https://media.istockphoto.com/vectors/simple-pet-cat-dog-brown-leather-leash-with-metal-fastener-vector-id816296336",
+          "price": 500,
+          "stock": 5
+        },
+        {
+          "id": 17,
+          "timestamp": "",
+          "title": "Cubridor",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+          "code": 1001,
+          "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+          "price": 500,
+          "stock": 5
+        }
+      ]
+    ]
+  }
+]

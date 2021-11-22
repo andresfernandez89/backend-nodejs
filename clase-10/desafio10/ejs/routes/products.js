@@ -4,8 +4,6 @@ const {Router} = express;
 const router = new Router();
 const store = new Contenedor("./data/products.txt");
 
-module.exports = router;
-
 router.get("/form", (req, res) => {
 	res.render("pages/form", {title: "Add Product"});
 });
@@ -30,3 +28,5 @@ router.get("/:id", (req, res) => {
 		res.json({Error: "Producto no encontrado"});
 	});
 });
+
+module.exports = router;
