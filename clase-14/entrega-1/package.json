@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon dist/main.js",
+    "build": "webpack --config=webpack.config.js --mode=development",
+    "dev": "webpack --config=webpack.config.js --mode=production"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +15,13 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-node-externals": "^3.0.0"
   }
 }
