@@ -1,6 +1,7 @@
 //Express
 const express = require("express");
 const app = express();
+
 const productsRoutes = require("./routes/products");
 
 const Contenedor = require("./contenedor");
@@ -23,7 +24,6 @@ app.use("/", productsRoutes);
 //Server
 const PORT = process.env.PORT || 8080;
 const http = require("http");
-const {response} = require("express");
 const server = http.createServer(app);
 
 server.listen(PORT, () => {

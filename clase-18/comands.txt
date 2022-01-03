@@ -1,0 +1,191 @@
+-Creo base de datos
+use ecommerce
+
+-Creo collecciones
+db.createCollection("products")
+db.createCollection("messages")
+
+1 y 2)
+db.products.insertMany([
+{
+  "title": "Alimento",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1001,
+  "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+  "price": 3850,
+  "stock": 5
+},
+{
+  "title": "Alimento",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1001,
+  "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+  "price": 2400,
+  "stock": 5
+},
+{
+  "title": "Casita",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1004,
+  "thumbnail": "https://cdn0.iconfinder.com/data/icons/free-any-house/96/dog_house-home-256.png",
+  "price": 1200,
+  "stock": 1
+},
+{
+  "title": "Casita",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1004,
+  "thumbnail": "https://cdn0.iconfinder.com/data/icons/free-any-house/96/dog_house-home-256.png",
+  "price": 300,
+  "stock": 1
+},
+{
+  "title": "Hueso",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1009,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 150,
+  "stock": 10
+},
+{
+  "title": "Manta",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1010,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 3150,
+  "stock": 10
+},
+{
+  "title": "Toalla",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1011,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 100,
+  "stock": 12
+},
+{
+  "title": "Vacuna",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1061,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 4150,
+  "stock": 12
+},
+{
+  "title": "Plato",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1051,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 1150,
+  "stock": 12
+},
+{
+  "title": "Peine",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1031,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 4150,
+  "stock": 12
+}
+])
+
+db.messages.insertMany([ 
+    {
+    "email": "andres@gmail.com",
+    "date": "[01/12/2021 19:49:40]",
+    "message": "hola"
+  },
+    {
+    "email": "andres@gmail.com",
+    "date": "[01/12/2021 19:49:41]",
+    "message": "como estas??"
+  },
+    {
+    "email": "stefano@gmail.com",
+    "date": "[01/12/2021 19:49:42]",
+    "message": "hola andres"
+  },
+    {
+    "email": "stefano@gmail.com",
+    "date": "[01/12/2021 19:49:43]",
+    "message": "yo muy bien"
+  },
+    {
+    "email": "stefano@gmail.com",
+    "date": "[01/12/2021 19:49:44]",
+    "message": "y vos??"
+  },
+    {
+    "email": "andres@gmail.com",
+    "date": "[01/12/2021 19:49:45]",
+    "message": "por suerte todo de diez"
+  },
+    {
+    "email": "stefano@gmail.com",
+    "date": "[01/12/2021 19:49:50]",
+    "message": "me alegro mucho"
+  },
+    {
+    "email": "andres@gmail.com",
+    "date": "[01/12/2021 19:50:40]",
+    "message": "que hacias?"
+  },
+    {
+    "email": "stefano@gmail.com",
+    "date": "[01/12/2021 19:51:40]",
+    "message": "paseando por la ciudad"
+  },
+    {
+    "email": "andres@gmail.com",
+    "date": "[01/12/2021 19:52:40]",
+    "message": "que bien, lindo dia!!!"
+  }
+])
+
+3)
+db.products.find().pretty()
+db.messages.find().pretty()
+
+4)
+db.products.estimatedDocumentCount()
+db.messages.estimatedDocumentCount()
+
+5)
+a)
+db.products.insertOne({ 
+  "title": "Shampoo",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1035,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 4250,
+  "stock": 12
+})
+
+b)
+i)
+db.products.find({"price": {$lt: 1000}}).pretty()
+
+ii) 
+Opcion 1
+db.products.find({$and:[{price:{$gt:1000}},{price:{$lt:3000}}]}).pretty()
+
+Opcion 2
+db.products.find({price:{$gt:1000,$lt:3000}}).pretty()
+
+iii)
+db.products.find({price: {$gt:3000}}).pretty()
+
+iv)
+db.products.find({},{title:1, _id:0}).sort({price:1}).skip(2).limit(1)
+
+c)
+db.products.updateMany({}, {$set: {stock:100}})
+
+d)
+db.products.updateMany({price:{$gt: 4000}}, {$set: {stock:0}})
+
+e)
+db.products.deleteMany({price:{$lt: 1000}})
+
+6)
+db.createUser({user: "pepe",pwd:"asd456" ,roles:[{role:"read", db:"ecommerce"}]})

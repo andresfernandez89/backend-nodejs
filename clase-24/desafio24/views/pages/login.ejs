@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("../partials/head") %>
+</head>
+<body class="bg-dark container">
+    <h1 class="text-center mt-4 text-white">Pets Shop</h1>
+    <div class="row">
+        <div class="mt-5 p-4 bg-light jumbotron col-md-4 offset-md-4 text-center">
+            <h2>Login</h2>
+            <br>
+            <form class="form-inline justify-content-center" action="/loginOk" method="post" autocomplete="off">
+                <div class="form-group">
+                    <label for="name">Enter your name</label>
+                    <input id="name" class="form-control" type="text" name="name">
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "61ad41e2d0cf5fd499e7744d"
+  },
+  "title": "Alimento",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1001,
+  "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+  "price": 3850,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61ad41e2d0cf5fd499e7744e"
+  },
+  "title": "Alimento",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1001,
+  "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+  "price": 2400,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61ad41e2d0cf5fd499e7744f"
+  },
+  "title": "Casita",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1004,
+  "thumbnail": "https://cdn0.iconfinder.com/data/icons/free-any-house/96/dog_house-home-256.png",
+  "price": 1200,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61ad41e2d0cf5fd499e77452"
+  },
+  "title": "Manta",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1010,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 3150,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61ad41e2d0cf5fd499e77454"
+  },
+  "title": "Vacuna",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1061,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 4150,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61ad41e2d0cf5fd499e77455"
+  },
+  "title": "Plato",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1051,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 1150,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61ad41e2d0cf5fd499e77456"
+  },
+  "title": "Peine",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1031,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 4150,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61ad4207d0cf5fd499e77457"
+  },
+  "title": "Shampoo",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+  "code": 1035,
+  "thumbnail": "https://cdn1.iconfinder.com/data/icons/amenities-outline-ii/48/_dogs-256.png",
+  "price": 4250,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61ae9e1efeb1e30a3ed1e331"
+  },
+  "title": "producto de usuario pepe"
+}]
