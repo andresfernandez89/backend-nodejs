@@ -1,21 +1,25 @@
-//Express
+////////////////////////  Express ////////////////////////////////////////////
 const express = require("express");
 const app = express();
 
-// Sessions
+////////////////////////  Sessions ////////////////////////////////////////////
 const session = require("express-session");
-/* const MongoStore = require("connect-mongo");
-const advancedOptions = {useNewUrlParser: true, useUnifiedTopology: true}; */
+const MongoStore = require("connect-mongo");
+const advancedOptions = {useNewUrlParser: true, useUnifiedTopology: true};
 
-//Redis
-const redis = require("redis");
+////////////////////////  Passport ////////////////////////////////////////////
+const passport = require("passport");
+
+////////////////////////  Redis ////////////////////////////////////////////
+/* const redis = require("redis");
 const RedisStore = require("connect-redis")(session);
-let redisClient = redis.createClient({host: "localhost", port: 6379});
+let redisClient = redis.createClient({host: "localhost", port: 6379}); */
 
-//Normalizr
+////////////////////////  Normalizr ////////////////////////////////////////////
 const {normalize, denormalize, schema} = require("normalizr");
 
-//Util
+////////////////////////  Util ////////////////////////////////////////////
+
 const util = require("util");
 
 const productsRoutes = require("./routes/products");
@@ -27,30 +31,29 @@ const store = new Contenedor("products");
 const Chat = require("./Chat.js");
 const chat = new Chat();
 
-//Engine
+////////////////////////  Engine ////////////////////////////////////////////
 
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-// Middlewares
+////////////////////////  Middlewares ////////////////////////////////////////////
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(express.static(process.cwd() + "/public"));
 
 app.use(
-	//Store de sessiones en Redis
-	session({
+	/////////////////  Store de sessiones en Redis ///////////////////
+	/* session({
 		store: new RedisStore({client: redisClient}),
 		secret: "secreto123",
 		resave: true,
 		saveUninitialized: true,
 		rolling: true,
 		cookie: {maxAge: 60000},
-	})
+	}) */
 
-	//Store de sessiones en MongoDb
-
-	/* session({
+	/////////////  Store de sessiones en MongoDb //////////////////////
+	session({
 		store: MongoStore.create({
 			mongoUrl:
 				"mongodb+srv://andres:1234@desafio24.zuem9.mongodb.net/desafio24?retryWrites=true&w=majority",
@@ -61,21 +64,22 @@ app.use(
 		saveUninitialized: true,
 		rolling: true,
 		cookie: {maxAge: 60000},
-	}) */
+	})
 );
 
-redisClient.on("ready", () => {
+/* redisClient.on("ready", () => {
 	console.log("Conected to redis Successfully!");
 });
 redisClient.on("error", (err) => {
 	console.log(err);
-	re;
-});
+}); */
 
+app.use(passport.initialize());
+app.use(passport.session());
 app.use("/", loginRoutes);
 app.use(productsRoutes);
 
-//Server
+////////////////////////  Server ////////////////////////////////////////////
 const PORT = process.env.PORT || 8080;
 const http = require("http");
 const server = http.createServer(app);
@@ -85,7 +89,7 @@ server.listen(PORT, () => {
 });
 server.on("error", (error) => console.log(`Error en servidor: ${error}`));
 
-//Socket
+////////////////////////  Socket ////////////////////////////////////////////
 const io = require("socket.io")(server);
 
 io.on("connection", (socket) => {
@@ -115,22 +119,14 @@ io.on("connection", (socket) => {
 	// Chat
 	const authorSchema = new schema.Entity("author", {}, {idAttribute: "id"});
 
-	const messageSchema = new schema.Entity(
-		"message",
-		{
-			author: authorSchema,
-		},
-		{idAttribute: "id"}
-	);
+	const messageSchema = new schema.Entity("message", {
+		author: authorSchema,
+	});
 
-	const chatSchema = new schema.Entity(
-		"messages",
-		{
-			//authores: [authorSchema],
-			messages: [messageSchema],
-		},
-		{idAttribute: "id"}
-	);
+	const chatSchema = new schema.Entity("messages", {
+		author: authorSchema,
+		messages: [messageSchema],
+	});
 
 	function print(obj) {
 		console.log(util.inspect(obj, false, 12, true));

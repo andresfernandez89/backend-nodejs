@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("../partials/head") %>
+</head>
+<body class="bg-dark ">
+    <div class="container">
+        <div class="row min-vh-100 d-flex justify-content-center align-items-center ">
+                <div class="w-25">
+                    <div class="col-12 p-4 bg-light jumbotron text-center">
+                            <h2>Sign Up</h2>
+                            <br>
+                            <form class="form-inline " action="/signup" method="post" autocomplete="off">
+                                <div class="form-group">
+                                    <label for="username">Enter your username</label>
+                                    <input id="username" class="form-control" type="text" name="username">
+                                    <label for="password">Enter your password</label>
+                                    <input id="password" class="form-control" type="password" name="password">
+                                </div>
+                                <button type="submit" class="btn btn-success mt-3">Send</button>
+                            </form>
+                        </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
