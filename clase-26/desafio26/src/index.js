@@ -16,16 +16,13 @@ const RedisStore = require("connect-redis")(session);
 let redisClient = redis.createClient({host: "localhost", port: 6379}); */
 
 ////////////////////////  Normalizr ////////////////////////////////////////////
-const {normalize, denormalize, schema} = require("normalizr");
-
-////////////////////////  Util ////////////////////////////////////////////
-
-const util = require("util");
+const {chatSchema, normalize, denormalize, print} = require("./normalizacion/index");
 
 const productsRoutes = require("./routes/products");
-const loginRoutes = require("./routes/login");
+const loginRoutes = require("./routes/auth");
+const homeRoutes = require("./routes/home");
 
-const Contenedor = require("./contenedor");
+const Contenedor = require("./Contenedor");
 const store = new Contenedor("products");
 
 const Chat = require("./Chat.js");
@@ -63,7 +60,7 @@ app.use(
 		resave: true,
 		saveUninitialized: true,
 		rolling: true,
-		cookie: {maxAge: 60000},
+		cookie: {maxAge: 600000},
 	})
 );
 
@@ -77,6 +74,7 @@ redisClient.on("error", (err) => {
 app.use(passport.initialize());
 app.use(passport.session());
 app.use("/", loginRoutes);
+app.use(homeRoutes);
 app.use(productsRoutes);
 
 ////////////////////////  Server ////////////////////////////////////////////
@@ -117,20 +115,6 @@ io.on("connection", (socket) => {
 	});
 
 	// Chat
-	const authorSchema = new schema.Entity("author", {}, {idAttribute: "id"});
-
-	const messageSchema = new schema.Entity("message", {
-		author: authorSchema,
-	});
-
-	const chatSchema = new schema.Entity("messages", {
-		author: authorSchema,
-		messages: [messageSchema],
-	});
-
-	function print(obj) {
-		console.log(util.inspect(obj, false, 12, true));
-	}
 
 	/* chat.getAll().then((data) => {
 		if (data.length > 0) return io.sockets.emit("chat", data);
@@ -142,7 +126,7 @@ io.on("connection", (socket) => {
 		await chat.getAll().then((data) => {
 			console.log(data);
 			const normalizedData = normalize({id: "messages", messages: data}, chatSchema);
-			print(normalizedData);
+			//print(normalizedData);
 			if (data.length > 0) return io.sockets.emit("chat", data);
 		});
 	});

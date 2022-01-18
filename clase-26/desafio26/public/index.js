@@ -53,7 +53,7 @@ const sendPr = () => {
 		thumbnail: document.querySelector("#thumbnailPr").value,
 		price: document.querySelector("#pricePr").value,
 	});
-	window.location.href = "/";
+	window.location.href = "/home";
 	return false;
 };
 
@@ -115,21 +115,3 @@ socket.on("chat", (data) => {
 	document.querySelector("#messages").innerHTML = msn;
 	socket.on("email", (email) => (document.querySelector("#email").value = email));
 });
-
-let inactivityTime = function () {
-	let time;
-	window.onload = resetTimer;
-	// DOM Events
-	document.onmousemove = resetTimer;
-	document.onkeydown = resetTimer;
-
-	function resetTimer() {
-		clearTimeout(time);
-		time = setTimeout((location.href = "/"), 600000);
-		// 1000 milliseconds = 1 second
-	}
-};
-
-/* window.onload = function () {
-	inactivityTime();
-}; */
