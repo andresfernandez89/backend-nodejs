@@ -12,6 +12,13 @@
 - Sequelize
 - Mongo Atlas
 - Firebase
+- Redis
 - TDD
 - Mocks
 - Faker.js
+- Normalizr
+- Passport
+- Global & Child Process
+- Cluster
+- Forever & PM2
+- PROXY & NGINX

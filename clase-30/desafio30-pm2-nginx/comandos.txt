@@ -1,0 +1,28 @@
+- Ejecutar servidor con NODEMON - cluster
+npm start -- --PORT=9009 
+npm start -- --PORT=9009 --SERVER=CLUSTER
+
+- Ejecutar servidor con FOREVER, listar y pararlo
+forever start src/index.js
+forever list
+forever stopall
+
+- Ejecutar servidor con FOREVER -cluster
+forever start src/index.js --SERVER=CLUSTER
+forever list
+forever stopall
+
+- Ejecutar servidor con PM2 - fork
+pm2 start ./src/index.js -- --PORT=8082
+
+- Ejecutar servidor con PM2 - cluster y modo watch
+pm2 start ./src/index.js -i --watch -- --PORT=8083
+
+- Ejecutar servidor con PM2 - cluster y modo watch desactivado
+pm2 restart ./src/index.js -- --PORT=8083 -i
+
+- Finalizar procesos con pm2
+pm2 delete all
+
+
+
