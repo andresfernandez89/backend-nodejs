@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "timestamp": "2021-12-19T16:02:41.919Z",
+    "title": "Alimento",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+    "code": "1001",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-feeding-pet-feed-dog-food-256.png",
+    "price": "200",
+    "stock": "5"
+  },
+  {
+    "id": "4",
+    "timestamp": "2021-12-19T16:02:49.703Z",
+    "title": "Pelota",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+    "code": "1001",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/dog-supplies-flat/64/dog-09-256.png",
+    "price": "300",
+    "stock": "5"
+  },
+  {
+    "id": 5,
+    "timestamp": "2021-11-16T23:03:21.471Z",
+    "title": "Pecera",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+    "code": "1004",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/interior-furnishing/96/fishbowl_fish_pet_furniture_furnishing_interior_decor-128.png",
+    "price": "2500",
+    "stock": "1"
+  },
+  {
+    "id": 6,
+    "timestamp": "2021-12-13T00:13:20.107Z",
+    "title": "Casita",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non egestas tellus.",
+    "code": "1004",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/free-any-house/96/dog_house-home-256.png",
+    "price": "600",
+    "stock": "1"
+  }
+]

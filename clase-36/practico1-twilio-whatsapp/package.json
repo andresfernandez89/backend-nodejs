@@ -1,0 +1,20 @@
+{
+  "name": "twilio-whatsapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2",
+    "twilio": "^3.73.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}

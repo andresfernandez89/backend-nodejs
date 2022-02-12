@@ -1,0 +1,86 @@
+[2022-02-02T19:55:05.223] [WARN] routeNotExist - ClientClosedError: The client is closed
+    at Commander._RedisClient_sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:393:31)
+    at Commander.sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:356:93)
+    at Commander.<computed>.<computed> [as get] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:390:27)
+    at RedisStore.get (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\connect-redis\lib\connect-redis.js:33:19)
+    at session (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:485:11)
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:317:13)
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:10)
+[2022-02-02T19:55:05.322] [WARN] routeNotExist - ClientClosedError: The client is closed
+    at Commander._RedisClient_sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:393:31)
+    at Commander.sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:356:93)
+    at Commander.<computed>.<computed> [as get] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:390:27)
+    at RedisStore.get (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\connect-redis\lib\connect-redis.js:33:19)
+    at session (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:485:11)
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:317:13)
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:10)
+[2022-02-02T19:55:06.547] [WARN] routeNotExist - ClientClosedError: The client is closed
+    at Commander._RedisClient_sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:393:31)
+    at Commander.sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:356:93)
+    at Commander.<computed>.<computed> [as get] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:390:27)
+    at RedisStore.get (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\connect-redis\lib\connect-redis.js:33:19)
+    at session (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:485:11)
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:317:13)
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:10)
+[2022-02-02T19:55:28.251] [WARN] routeNotExist - ClientClosedError: The client is closed
+    at Commander._RedisClient_sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:393:31)
+    at Commander.sendCommand (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:356:93)
+    at Commander.<computed>.<computed> [as get] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\@node-redis\client\dist\lib\client\index.js:390:27)
+    at RedisStore.get (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\connect-redis\lib\connect-redis.js:33:19)
+    at session (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:485:11)
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:317:13)
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:10)
+[2022-02-02T20:10:53.673] [WARN] routeNotExist - TypeError: Cannot read properties of undefined (reading 'username')
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\src\routes\auth.js:60:23
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:47:12)
+[2022-02-02T20:11:17.438] [WARN] routeNotExist - TypeError: Cannot read properties of undefined (reading 'username')
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\src\routes\auth.js:60:23
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:47:12)
+[2022-02-02T20:11:39.829] [WARN] routeNotExist - TypeError: Cannot read properties of undefined (reading 'username')
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\src\routes\auth.js:60:23
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:47:12)
+[2022-02-03T18:34:09.083] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:34:12.360] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:34:16.328] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:34:22.837] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:34:55.373] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:35:51.736] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:36:04.159] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:39:08.106] [WARN] routeNotExist - Route not found!
+[2022-02-03T18:40:33.511] [WARN] routeNotExist - Quisieron ingresar a /login/ssss

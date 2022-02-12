@@ -22,3 +22,9 @@
 - Cluster
 - Forever & PM2
 - PROXY & NGINX
+- Logs, debug, profiling
+- Heroku
+- AWS
+- Nodemailer
+- Twilio
+- OWASP

@@ -1,0 +1,213 @@
+Statistical profiling result from noBloq-v8.log, (6070 ticks, 0 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+   5533   91.2%          C:\Windows\SYSTEM32\ntdll.dll
+    494    8.1%          C:\Program Files\nodejs\node.exe
+      8    0.1%          C:\Windows\System32\KERNELBASE.dll
+      3    0.0%          C:\Windows\System32\WS2_32.dll
+      1    0.0%          C:\Windows\system32\mswsock.dll
+      1    0.0%          C:\Windows\System32\KERNEL32.DLL
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      3    0.0%   10.0%  LazyCompile: *serializeInto D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\serializer.js:550:23
+      3    0.0%   10.0%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+      2    0.0%    6.7%  LazyCompile: *writeOrBuffer node:internal/streams/writable:365:23
+      2    0.0%    6.7%  LazyCompile: *resolve node:path:158:10
+      1    0.0%    3.3%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      1    0.0%    3.3%  LazyCompile: *toNamespacedPath node:path:618:19
+      1    0.0%    3.3%  LazyCompile: *emit node:events:340:44
+      1    0.0%    3.3%  LazyCompile: *deserializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:65:27
+      1    0.0%    3.3%  LazyCompile: *concat node:buffer:535:32
+      1    0.0%    3.3%  LazyCompile: *_addListener node:events:418:22
+      1    0.0%    3.3%  LazyCompile: *FastBuffer node:internal/buffer:958:14
+      1    0.0%    3.3%  Function: ^processTimers node:internal/timers:485:25
+      1    0.0%    3.3%  Function: ^onStreamRead node:internal/stream_base_commons:171:22
+      1    0.0%    3.3%  Function: ^listOnTimeout node:internal/timers:505:25
+      1    0.0%    3.3%  Function: ^isSaved D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:430:21
+      1    0.0%    3.3%  Function: ^insert node:internal/timers:350:16
+      1    0.0%    3.3%  Function: ^hasAspect D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\operations\operation.js:39:14
+      1    0.0%    3.3%  Function: ^fromOptions D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\read_preference.js:76:23
+      1    0.0%    3.3%  Function: ^fromArrayBuffer node:buffer:448:25
+      1    0.0%    3.3%  Function: ^alignPool node:buffer:158:19
+      1    0.0%    3.3%  Function: ^_storeHeader node:_http_outgoing:374:22
+      1    0.0%    3.3%  Function: ^_finish node:_http_server:203:52
+      1    0.0%    3.3%  Function: ^FastBuffer node:internal/buffer:958:14
+      1    0.0%    3.3%  Function: ^<anonymous> node:internal/validators:72:3
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+     30    0.5%  100.0%  JavaScript
+      0    0.0%    0.0%  C++
+     23    0.4%   76.7%  GC
+   6040   99.5%          Shared libraries
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   5533   91.2%  C:\Windows\SYSTEM32\ntdll.dll
+
+    494    8.1%  C:\Program Files\nodejs\node.exe
+    246   49.8%    C:\Program Files\nodejs\node.exe
+     58   23.6%      Function: ^compileFunction node:vm:308:25
+     58  100.0%        Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+     42   72.4%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+     41   97.6%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    2.4%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
+     14   24.1%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1055:37
+     14  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      2    3.4%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
+      2  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
+     11    4.5%      C:\Program Files\nodejs\node.exe
+      2   18.2%        C:\Program Files\nodejs\node.exe
+      2  100.0%          Function: ^isValid D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\read_preference.js:133:19
+      2  100.0%            Function: ^isValid D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\read_preference.js:149:12
+      1    9.1%        LazyCompile: *<anonymous> D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\connect-mongo\build\main\lib\MongoStore.js:236:10
+      1  100.0%          Function: ^set D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\connect-mongo\build\main\lib\MongoStore.js:234:8
+      1  100.0%            Function: ^save D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\session\session.js:71:54
+      1    9.1%        Function: ~<anonymous> D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mquery\node_modules\debug\src\node.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    9.1%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      1  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1    9.1%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      1  100.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    9.1%        Function: ^pipe D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\send\index.js:510:43
+      1  100.0%          Function: ^serveStatic D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\serve-static\index.js:72:31
+      1  100.0%            LazyCompile: *next D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:176:16
+      1    9.1%        Function: ^header D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\response.js:754:29
+      1  100.0%          Function: ^contentType D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\response.js:594:32
+      1  100.0%            Function: ^send D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\response.js:107:25
+      1    9.1%        Function: ^cleanUsername D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\auth\scram.js:48:23
+      1  100.0%          LazyCompile: ~continueScramConversation D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\auth\scram.js:93:35
+      1  100.0%            LazyCompile: ~<anonymous> D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\auth\scram.js:85:80
+      1    9.1%        Function: ^checkInvalidHeaderChar node:_http_common:232:32
+      1  100.0%          Function: ^<anonymous> node:_http_outgoing:564:45
+      1  100.0%            Function: ^setHeader node:_http_outgoing:574:57
+      1    9.1%        Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
+     10    4.1%      Function: ^stat node:internal/modules/cjs/loader:151:14
+      7   70.0%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      7  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      7  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      3   30.0%        Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      3  100.0%          Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      3  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      9    3.7%      Function: ^realpathSync node:fs:2408:22
+      7   77.8%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      7  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      6   85.7%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1   14.3%            Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      2   22.2%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      6    2.4%      Function: ^writevGeneric node:internal/stream_base_commons:126:23
+      6  100.0%        Function: ^Socket._writeGeneric node:net:769:42
+      6  100.0%          Function: ^Socket._writev node:net:801:36
+      6  100.0%            Function: ^doWrite node:internal/streams/writable:398:17
+      5    2.0%      LazyCompile: *deserializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:65:27
+      4   80.0%        Function: ^deserialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:36:21
+      4  100.0%          Function: ^deserialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\bson.js:162:21
+      4  100.0%            Function: ^parse D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\commands.js:577:10
+      1   20.0%        LazyCompile: *deserializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:65:27
+      1  100.0%          LazyCompile: *deserializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:65:27
+      1  100.0%            LazyCompile: *deserializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:65:27
+      5    2.0%      Function: ^Hash node:internal/crypto/hash:58:14
+      5  100.0%        Function: ^createHash node:crypto:129:20
+      3   60.0%          Function: ^hash D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:596:14
+      2   66.7%            Function: ^inflate D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:371:22
+      1   33.3%            Function: ^isSaved D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:430:21
+      1   20.0%          Function: ^sha1 D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\cookie-signature\index.js:49:14
+      1  100.0%            Function: ^exports.unsign D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\cookie-signature\index.js:36:26
+      1   20.0%          Function: ^entitytag D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\etag\index.js:39:20
+      1  100.0%            Function: ^etag D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\etag\index.js:70:15
+      4    1.6%      Function: ^openSync node:fs:576:18
+      4  100.0%        Function: ^readFileSync node:fs:450:22
+      4  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      3   75.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1   25.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      4    1.6%      Function: ^handleWriteReq node:internal/stream_base_commons:45:24
+      4  100.0%        Function: ^writeGeneric node:internal/stream_base_commons:151:22
+      4  100.0%          Function: ^Socket._writeGeneric node:net:769:42
+      4  100.0%            Function: ^Socket._write node:net:806:35
+      4    1.6%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2   50.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1   50.0%          LazyCompile: ~get node:dns:334:8
+      1  100.0%            C:\Program Files\nodejs\node.exe
+      1   50.0%          Function: ~<anonymous> node:internal/crypto/pbkdf2:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2   50.0%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      2  100.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      4    1.6%      Function: ^authenticate D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\passport\lib\middleware\authenticate.js:94:31
+      3   75.0%        LazyCompile: *next D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:176:16
+      3  100.0%          Function: ^initialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\passport\lib\middleware\initialize.js:51:29
+      3  100.0%            LazyCompile: *next D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:176:16
+      1   25.0%        Function: ^handle D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%          Function: ^trim_prefix D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:288:23
+      1  100.0%            Function: ^<anonymous> D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\router\index.js:275:64
+      3    1.2%      LazyCompile: *serializeInto D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\serializer.js:550:23
+      2   66.7%        LazyCompile: *serializeInto D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\serializer.js:550:23
+      1   50.0%          LazyCompile: *serializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\serializer.js:258:25
+      1  100.0%            LazyCompile: *serializeInto D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\serializer.js:550:23
+      1   50.0%          LazyCompile: *serializeInto D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\serializer.js:550:23
+      1  100.0%            Function: ^serialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\bson.js:111:19
+      1   33.3%        Function: ^serialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\bson.js:111:19
+      1  100.0%          Function: ^serializeBson D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\commands.js:530:18
+      1  100.0%            Function: ^makeDocumentSegment D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\commands.js:522:24
+      3    1.2%      LazyCompile: *resolve node:path:158:10
+      1   33.3%        LazyCompile: *stat node:internal/modules/cjs/loader:151:14
+      1  100.0%          LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1   33.3%        LazyCompile: *Module._nodeModulePaths node:internal/modules/cjs/loader:583:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1   33.3%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      3    1.2%      LazyCompile: *nextTick node:internal/process/task_queues:104:18
+      2   66.7%        LazyCompile: *readableAddChunk node:internal/streams/readable:236:26
+      2  100.0%          Function: ^Readable.push node:internal/streams/readable:227:35
+      2  100.0%            Function: ^writeCommand D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\message_stream.js:35:17
+      1   33.3%        Function: ^emitReadable node:internal/streams/readable:563:22
+      1  100.0%          Function: ^onEofChunk node:internal/streams/readable:533:20
+      1  100.0%            Function: ^readableAddChunk node:internal/streams/readable:236:26
+      3    1.2%      LazyCompile: *Long D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\long.js:58:18
+      2   66.7%        LazyCompile: *deserializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:65:27
+      1   50.0%          LazyCompile: *deserializeObject D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:65:27
+      1  100.0%            Function: ^deserialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:36:21
+      1   50.0%          Function: ^deserialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\deserializer.js:36:21
+      1  100.0%            Function: ^deserialize D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\bson.js:162:21
+      1   33.3%        Function: ^Long.fromBits D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\long.js:88:30
+      1  100.0%          Function: ^Long.fromNumber D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\long.js:130:32
+      1  100.0%            Function: ^serializeDate D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\bson\lib\parser\serializer.js:108:23
+      3    1.2%      Function: ^closeSync node:fs:526:19
+      3  100.0%        Function: ^closeSync D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\graceful-fs\graceful-fs.js:72:24
+      2   66.7%          LazyCompile: *readFileSync node:fs:450:22
+      2  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1   33.3%          Function: ^readFileSync node:fs:450:22
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      3    1.2%      Function: ^Hmac node:internal/crypto/hash:127:14
+      3  100.0%        Function: ^createHmac node:crypto:161:20
+      2   66.7%          Function: ^exports.sign D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\cookie-signature\index.js:16:24
+      2  100.0%            Function: ^setcookie D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express-session\index.js:655:19
+      1   33.3%          Function: ^HMAC D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\auth\scram.js:214:14
+      1  100.0%            Function: ^continueScramConversation D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\mongodb\lib\cmap\auth\scram.js:93:35
+      3    1.2%      Function: ^<anonymous> D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\request.js:467:36
+      3  100.0%        C:\Program Files\nodejs\node.exe
+      3  100.0%          Function: ^send D:\projects\backend\clase-32\desafio32-gzip-logger-performance\node_modules\express\lib\response.js:107:25
+      3  100.0%            Function: ^<anonymous> D:\projects\backend\clase-32\desafio32-gzip-logger-performance\src\routes\info.js:12:17
+

@@ -33,6 +33,6 @@ const server = app.listen(PORT, () => {
 	console.log(`Servidor http escuchando en el puerto: ${server.address().port}`);
 });
 
-server.on("error", (error) => console.log(`Error en servidor: ${error}`));
+server.on("error", (error) => console.log(`Error en el servidor: ${error}`));
 
 module.exports = app;

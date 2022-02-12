@@ -26,7 +26,10 @@ const passport = require("passport");
 /*********************************  Redis *********************************/
 /* const redis = require("redis");
 const RedisStore = require("connect-redis")(session);
-let redisClient = redis.createClient({host: "localhost", port: 6379}); */
+let redisClient = redis.createClient({host: "localhost", port: 6379, legacyMode: true});
+(async () => {
+	redisClient.connect();
+})(); */
 
 /*********************************  Routes *********************************/
 
@@ -68,7 +71,7 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 	app.use(
 		/*********************************  Store de sessiones en Redis *********************************/
 		/* session({
-			store: new RedisStore({host: "localhost", port: 6379, client: redisClient}),
+			store: new RedisStore({client: redisClient}),
 			secret: "secreto123",
 			resave: true,
 			saveUninitialized: true,
@@ -151,9 +154,9 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 
 		// Chat
 
-		/* chat.getAll().then((data) => {
+		chat.getAll().then((data) => {
 			if (data.length > 0) return io.sockets.emit("chat", data);
-		}); */
+		});
 
 		socket.on("msn", async (msn) => {
 			await chat.save(msn);

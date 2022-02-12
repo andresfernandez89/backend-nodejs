@@ -13,7 +13,10 @@ const passport = require("passport");
 ////////////////////////  Redis ////////////////////////////////////////////
 /* const redis = require("redis");
 const RedisStore = require("connect-redis")(session);
-let redisClient = redis.createClient({host: "localhost", port: 6379}); */
+let redisClient = redis.createClient({host: "localhost", port: 6379, legacyMode: true});
+(async () => {
+	redisClient.connect();
+})(); */
 
 ////////////////////////  Normalizr ////////////////////////////////////////////
 const {chatSchema, normalize, denormalize, print} = require("./normalizacion/index");
@@ -116,9 +119,9 @@ io.on("connection", (socket) => {
 
 	// Chat
 
-	/* chat.getAll().then((data) => {
+	chat.getAll().then((data) => {
 		if (data.length > 0) return io.sockets.emit("chat", data);
-	}); */
+	});
 
 	socket.on("msn", async (msn) => {
 		await chat.save(msn);

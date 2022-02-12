@@ -10,7 +10,10 @@ const advancedOptions = {useNewUrlParser: true, useUnifiedTopology: true};
 //Redis
 /* const redis = require("redis");
 const RedisStore = require("connect-redis")(session);
-let redisClient = redis.createClient({host: "localhost", port: 6379}); */
+let redisClient = redis.createClient({host: "localhost", port: 6379, legacyMode: true});
+(async () => {
+	redisClient.connect();
+})();*/
 
 //Normalizr
 const {normalize, denormalize, schema} = require("normalizr");
@@ -136,9 +139,9 @@ io.on("connection", (socket) => {
 		console.log(util.inspect(obj, false, 12, true));
 	}
 
-	/* chat.getAll().then((data) => {
+	chat.getAll().then((data) => {
 		if (data.length > 0) return io.sockets.emit("chat", data);
-	}); */
+	});
 
 	socket.on("msn", async (msn) => {
 		await chat.save(msn);
