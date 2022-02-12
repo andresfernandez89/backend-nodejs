@@ -30,7 +30,8 @@
   },
   "scripts": {
     "test": "node benchmark.js",
-    "start": "0x index.js"
+    "start": "0x index.js",
+    "build": "index.js"
   },
   "keywords": [],
   "author": "",
