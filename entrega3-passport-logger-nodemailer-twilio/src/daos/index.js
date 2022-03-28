@@ -1,29 +1,23 @@
+let usersDao;
 let productsDao;
 let cartsDao;
-let env = "firebase";
+let ordersDao;
+let env = "mongodb";
 
 switch (env) {
-	case "files":
-		const {default: ProductsDaoFiles} = await import("./products/ProductsDaoFiles.js");
-		const {default: CartsDaoFiles} = await import("./carts/CartsDaoFiles.js");
-		productsDao = new ProductsDaoFiles();
-		cartsDao = new CartsDaoFiles();
-		break;
 	case "mongodb":
+		const {default: UsersDaoMongoDB} = await import("./users/UsersDaoMongoDB.js");
 		const {default: ProductsDaoMongoDB} = await import("./products/ProductsDaoMongoDB.js");
 		const {default: CartsDaoMongoDB} = await import("./carts/CartsDaoMongoDB.js");
+		const {default: OrdersDaoMongoDB} = await import("./orders/OrdersDaoMongoDB.js");
+		usersDao = new UsersDaoMongoDB();
 		productsDao = new ProductsDaoMongoDB();
 		cartsDao = new CartsDaoMongoDB();
-		break;
-	case "firebase":
-		const {default: ProductsDaoFirebase} = await import("./products/ProductsDaoFirebase.js");
-		const {default: CartsDaoFirebase} = await import("./carts/CartsDaoFirebase.js");
-		productsDao = new ProductsDaoFirebase();
-		cartsDao = new CartsDaoFirebase();
+		ordersDao = new OrdersDaoMongoDB();
 		break;
 
 	default:
 		break;
 }
 
-export {productsDao, cartsDao};
+export {usersDao, productsDao, cartsDao, ordersDao};

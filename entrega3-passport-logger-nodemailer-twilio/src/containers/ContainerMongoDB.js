@@ -1,13 +1,8 @@
-import config from "../config.js";
 import mongoose from "mongoose";
 
-try {
-	await mongoose.connect(config.mongoDB.cnx, config.mongoDB.options);
-	console.log("Database Connected");
-} catch (error) {
-	console.log(error);
-	console.log("Failed to connect to Database");
-}
+import log4js from "../utils/logger.js";
+const logger = log4js.getLogger();
+const loggerApi = log4js.getLogger("apisError");
 
 class ContainerMongoDB {
 	constructor(collection, schema) {
@@ -19,7 +14,7 @@ class ContainerMongoDB {
 			const data = await this.collection.find({}, {__v: 0});
 			return data;
 		} catch (error) {
-			console.log("The file cannot be read.");
+			loggerApi.error("The file cannot be read.");
 		}
 	}
 
@@ -32,15 +27,17 @@ class ContainerMongoDB {
 				return null;
 			}
 		} catch (error) {
-			console.log("The file cannot be read.");
+			loggerApi.error("The file cannot be read.");
 		}
 	}
 
 	async add(data) {
 		try {
-			await this.collection({...data, timestamps: new Date()}).save();
+			const newData = await this.collection({...data}).save();
+			return newData;
 		} catch (error) {
-			console.log("The file cannot be written.");
+			loggerApi.error("The file cannot be written.");
+			loggerApi.error(error);
 		}
 	}
 
@@ -51,15 +48,25 @@ class ContainerMongoDB {
 			});
 			return dataUpdate;
 		} catch (error) {
-			console.log("The file cannot be written.");
+			loggerApi.error("The file cannot be written.");
 		}
 	}
 	async deleteById(id) {
 		try {
 			const dataDeleted = await this.collection.deleteOne({_id: id});
-			console.log(dataDeleted);
+			logger.info(dataDeleted);
 		} catch (error) {
-			console.log("The file cannot be deleted.");
+			loggerApi.error("The file cannot be deleted.");
+		}
+	}
+
+	async ifExist(objData) {
+		try {
+			const obj = await this.collection.findOne(objData);
+			if (obj) return true;
+			return false;
+		} catch (error) {
+			loggerApi.error("The file cannot be read.");
 		}
 	}
 }

@@ -2,7 +2,7 @@
   "name": "desafio32",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "dependencies": {
     "autocannon": "^7.6.0",
     "compression": "^1.7.4",
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "test": "node benchmark.js",
-    "start": "0x index.js",
+    "start": "nodemon index.js",
     "build": "index.js"
   },
   "keywords": [],
