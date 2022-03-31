@@ -29,3 +29,6 @@
 - Twilio
 - OWASP
 - Arquitectura de capas
+- Testing (Mocha-Chai-Supertest)
+- Axios
+- Documentacion de Api
