@@ -1,0 +1,44 @@
+{
+  "name": "desafio44",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "connect-redis": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.17.2",
+    "faker": "^5.5.3",
+    "graphql": "^16.3.0",
+    "log4js": "^6.4.1",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.3",
+    "mysql": "^2.18.1",
+    "normalizr": "^3.6.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "redis": "^4.0.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha src/test/testApi.test.js",
+    "testAxios": "node src/test/client.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
