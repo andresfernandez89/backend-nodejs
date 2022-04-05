@@ -32,3 +32,4 @@
 - Testing (Mocha-Chai-Supertest)
 - Axios
 - Documentacion de Api
+- GraphQL
