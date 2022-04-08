@@ -33,3 +33,5 @@
 - Axios
 - Documentacion de Api
 - GraphQL
+- Frameworks
+- Deno

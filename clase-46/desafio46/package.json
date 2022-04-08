@@ -1,0 +1,44 @@
+{
+  "name": "desafio46",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "compression": "^1.7.4",
+    "connect-redis": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "faker": "^5.5.3",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-ejs": "^4.3.0",
+    "koa-passport": "^4.1.4",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "koa-session-mongoose": "^3.0.1",
+    "koa-static": "^5.0.0",
+    "log4js": "^6.4.1",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.3",
+    "mysql": "^2.18.1",
+    "passport-local": "^1.0.0",
+    "redis": "^4.0.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha src/test/testApi.test.js",
+    "testAxios": "node src/test/client.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
