@@ -35,19 +35,4 @@ class SingletonClass {
 	}
 }
 
-/* switch (env) {
-	case "mongodb":
-		MyClient.connect();
-		const UsersDaoMongoDB = require("./users/UsersDaoMongoDB.js");
-		const ChatsDaoMongoDB = require("./chats/ChatsDaoMongoDB.js");
-		const ProductsDaoMongoDB = require("./products/ProductsDaoMongoDb.js");
-		usersDao = new UsersDaoMongoDB();
-		chatsDao = new ChatsDaoMongoDB();
-		productsDao = new ProductsDaoMongoDB();
-		break;
-	default:
-		break;
-}
-
-module.exports = {usersDao, chatsDao, productsDao}; */
 module.exports = SingletonClass;
