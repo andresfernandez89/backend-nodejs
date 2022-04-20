@@ -35,6 +35,10 @@ import MongoStore from "connect-mongo";
 //Auth
 import authorize from "./src/utils/auth.js";
 
+//Chat Services
+import ChatApi from "./src/services/chatsServices.js";
+const chat = new ChatApi();
+
 //Routes
 import sessionRoutes from "./src/routes/auth.js";
 import homeRoutes from "./src/routes/home.js";
@@ -46,6 +50,9 @@ import orderRoutes from "./src/routes/order.js";
 const {PORT, SERVER} = parseArg(process.argv.slice(2), {
 	default: {PORT: process.env.PORT, SERVER: "FORK"},
 });
+//Socket
+import http from "http";
+import {Server} from "socket.io";
 
 if (cluster.isPrimary && SERVER === "CLUSTER") {
 	for (let i = 0; i < numCPUs; i++) {
@@ -54,6 +61,8 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 	cluster.on("exit", (worker, code, signal) => logger.info(`Worker ${worker.process.pid} died.`));
 } else {
 	const app = express();
+	const server = http.createServer(app);
+	const io = new Server(server);
 	//Engine
 	app.set("views", process.cwd() + "/src/views");
 	app.set("view engine", "ejs");
@@ -91,10 +100,38 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 			.json({error: -2, descripcion: `ruta ${req.url} método '${req.method}' no implementada`});
 	});
 
-	const server = app.listen(PORT, async () => {
-		//await mongoose.connect(config.mongoDB.cnx, config.mongoDB.options);
+	io.on("connection", async (socket) => {
+		try {
+			logger.info("Connected client");
+			let data = await chat.getAll();
+			if (data.length > 0) return io.sockets.emit("chat", data);
+		} catch (error) {
+			logger.error(error);
+		}
+
+		socket.on("msn", async (msn) => {
+			try {
+				await chat.addChat(msn);
+				io.sockets.emit("email", msn.email);
+				let data = await chat.getAll();
+				if (data.length > 0) return io.sockets.emit("chat", data);
+			} catch (error) {
+				logger.error(error);
+			}
+		});
+
+		socket.on("disconnect", () => {
+			try {
+				chat.deleteAll();
+				logger.info("User disconnected");
+			} catch (error) {
+				logger.error(error);
+			}
+		});
+	});
+
+	server.listen(PORT, async () => {
 		logger.info(`Servidor http escuchando en el puerto: ${server.address().port}`);
-		//logger.info("Database Connected");
 	});
 
 	server.on("error", (error) => loggerApi.error(`Error en servidor: ${error}`));

@@ -11,8 +11,7 @@ class ContainerMongoDB {
 
 	async getAll() {
 		try {
-			const data = await this.collection.find({}, {__v: 0});
-			return data;
+			return await this.collection.find({}, {__v: 0});
 		} catch (error) {
 			loggerApi.error("The file cannot be read.");
 		}
@@ -33,8 +32,7 @@ class ContainerMongoDB {
 
 	async add(data) {
 		try {
-			const newData = await this.collection({...data}).save();
-			return newData;
+			return await this.collection({...data}).save();
 		} catch (error) {
 			loggerApi.error("The file cannot be written.");
 			loggerApi.error(error);
@@ -56,6 +54,14 @@ class ContainerMongoDB {
 			return await this.collection.deleteOne({_id: id});
 		} catch (error) {
 			loggerApi.error("The file cannot be deleted.");
+		}
+	}
+
+	async deleteAll() {
+		try {
+			return await this.collection.deleteMany();
+		} catch (error) {
+			logger.error("The file cannot be deleted.");
 		}
 	}
 

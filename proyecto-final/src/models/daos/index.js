@@ -7,6 +7,7 @@ let usersDao;
 let productsDao;
 let cartsDao;
 let ordersDao;
+let chatsDao;
 
 switch (process.env.NODE_ENV) {
 	case "production":
@@ -18,10 +19,12 @@ switch (process.env.NODE_ENV) {
 					const {default: ProductsDaoMongoDB} = await import("./products/ProductsDaoMongoDB.js");
 					const {default: CartsDaoMongoDB} = await import("./carts/CartsDaoMongoDB.js");
 					const {default: OrdersDaoMongoDB} = await import("./orders/OrdersDaoMongoDB.js");
+					const {default: ChatsDaoMongoDB} = await import("./chats/ChatsDaoMongoDB.js");
 					usersDao = new UsersDaoMongoDB();
 					productsDao = new ProductsDaoMongoDB();
 					cartsDao = new CartsDaoMongoDB();
 					ordersDao = new OrdersDaoMongoDB();
+					chatsDao = new ChatsDaoMongoDB();
 					break;
 				default:
 					break;
@@ -32,13 +35,14 @@ switch (process.env.NODE_ENV) {
 		break;
 }
 
-export {usersDao, productsDao, cartsDao, ordersDao};
+export {usersDao, productsDao, cartsDao, ordersDao, chatsDao};
 /* class SingletonClass {
 	constructor() {
 		this.usersDao = usersDao;
 		this.productsDao = productsDao;
 		this.cartsDao = cartsDao;
 		this.ordersDao = ordersDao;
+		this.chatsDao = chatsDao;
 	}
 	static async getInstance() {
 		if (!instance) {
@@ -48,11 +52,12 @@ export {usersDao, productsDao, cartsDao, ordersDao};
 					const {default: UsersDaoMongoDB} = await import("./users/UsersDaoMongoDB.js");
 					const {default: ProductsDaoMongoDB} = await import("./products/ProductsDaoMongoDB.js");
 					const {default: CartsDaoMongoDB} = await import("./carts/CartsDaoMongoDB.js");
-					const {default: OrdersDaoMongoDB} = await import("./orders/OrdersDaoMongoDB.js");
+					const {default: ChatsDaoMongoDB} = await import("./chats/ChatsDaoMongoDB.js");
 					usersDao = new UsersDaoMongoDB();
 					productsDao = new ProductsDaoMongoDB();
 					cartsDao = new CartsDaoMongoDB();
 					ordersDao = new OrdersDaoMongoDB();
+					chatsDao = new ChatsDaoMongoDB();
 					break;
 				default:
 					break;

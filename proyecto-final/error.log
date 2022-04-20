@@ -3364,3 +3364,2597 @@
   keyPattern: { userId: 1 },
   keyValue: { userId: '6254b7f33eec23cc7488bd84' }
 }
+[2022-04-19T20:48:38.754] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:48:38.755] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:50:00.275] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:50:00.275] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:50:44.705] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:50:44.706] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:50:47.117] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:50:47.117] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:51:00.683] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:51:00.683] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:51:35.874] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:51:35.875] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:51:37.064] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:51:37.065] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:51:47.802] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:51:47.803] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:52:40.276] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:52:40.277] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:53:01.980] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:53:01.981] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:53:47.347] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:53:47.347] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:53:48.544] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:53:48.544] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:54:23.041] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:54:23.041] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:54:23.948] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:54:23.949] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:54:36.266] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:54:36.267] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:56:06.590] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:56:06.591] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:56:07.773] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:56:07.774] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:56:43.494] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:56:43.495] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T20:58:08.447] [ERROR] apisError - The file cannot be written.
+[2022-04-19T20:58:08.448] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T21:46:03.637] [ERROR] apisError - The file cannot be written.
+[2022-04-19T21:46:03.638] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T21:51:46.983] [ERROR] apisError - The file cannot be written.
+[2022-04-19T21:51:46.983] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T21:51:49.637] [ERROR] apisError - The file cannot be written.
+[2022-04-19T21:51:49.637] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-19T21:58:10.031] [ERROR] apisError - The file cannot be written.
+[2022-04-19T21:58:10.032] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-20T08:05:01.058] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:05:01.058] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-20T08:05:26.664] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:05:26.664] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:05:34.057] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:05:34.057] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:05:45.983] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:05:45.983] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:06:11.542] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:06:11.542] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:06:23.343] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:06:23.344] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:06:43.511] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:06:43.511] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:07:30.480] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:07:30.480] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-20T08:07:40.628] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:07:40.628] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:08:15.639] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:08:15.640] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-20T08:08:29.488] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:08:29.489] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:08:58.488] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:08:58.488] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:09:11.554] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:09:11.554] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:09:55.145] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:09:55.145] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:10:21.983] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:10:21.984] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:10:58.984] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:10:58.984] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:13:07.089] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:13:07.089] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:13:53.976] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:13:53.976] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:14:23.212] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:14:23.212] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:14:34.118] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:14:34.119] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:17:06.708] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:17:06.709] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:17:25.792] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:17:25.793] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:18:42.440] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:18:42.440] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:19:28.063] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:19:28.064] [ERROR] apisError - Error: chat validation failed: author.avatar: Path `author.avatar` is required., author.alias: Path `author.alias` is required., author.age: Path `author.age` is required., author.lastname: Path `author.lastname` is required., author.name: Path `author.name` is required., author.id: Path `author.id` is required.
+    at ValidationError.inspect (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (D:\projects\backend\proyecto-final\node_modules\log4js\lib\layouts.js:63:57)
+    at app (D:\projects\backend\proyecto-final\node_modules\log4js\lib\appenders\file.js:73:23)
+    at D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\projects\backend\proyecto-final\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    'author.avatar': ValidatorError: Path `author.avatar` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.avatar',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.alias': ValidatorError: Path `author.alias` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.alias',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.age': ValidatorError: Path `author.age` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.lastname': ValidatorError: Path `author.lastname` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.lastname',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.name': ValidatorError: Path `author.name` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'author.id': ValidatorError: Path `author.id` is required.
+        at validate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1277:13)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1260:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (D:\projects\backend\proyecto-final\node_modules\mongoose\lib\schematype.js:1210:14)
+        at D:\projects\backend\proyecto-final\node_modules\mongoose\lib\document.js:2704:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'author.id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'chat validation failed'
+}
+[2022-04-20T08:25:41.367] [ERROR] apisError - ReferenceError: loggerApi is not defined
+    at ChatsDaoMongoDB.addChat (file:///D:/projects/backend/proyecto-final/src/models/daos/chats/ChatsDaoMongoDB.js:26:4)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
+    at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)
+[2022-04-20T08:25:49.810] [ERROR] apisError - ReferenceError: loggerApi is not defined
+    at ChatsDaoMongoDB.addChat (file:///D:/projects/backend/proyecto-final/src/models/daos/chats/ChatsDaoMongoDB.js:26:4)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
+    at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)
+[2022-04-20T08:26:28.468] [ERROR] apisError - The file cannot be written.
+[2022-04-20T08:26:28.469] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}
+[2022-04-20T08:26:45.641] [ERROR] apisError - ReferenceError: loggerApi is not defined
+    at ChatsDaoMongoDB.addChat (file:///D:/projects/backend/proyecto-final/src/models/daos/chats/ChatsDaoMongoDB.js:26:4)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
+    at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)
+[2022-04-20T08:28:01.537] [ERROR] apisError - ReferenceError: loggerApi is not defined
+    at ChatsDaoMongoDB.addChat (file:///D:/projects/backend/proyecto-final/src/models/daos/chats/ChatsDaoMongoDB.js:27:4)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
+    at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)
+[2022-04-20T08:28:22.639] [ERROR] apisError - ReferenceError: loggerApi is not defined
+    at ChatsDaoMongoDB.addChat (file:///D:/projects/backend/proyecto-final/src/models/daos/chats/ChatsDaoMongoDB.js:27:4)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
+    at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)
+[2022-04-20T08:28:34.991] [ERROR] apisError - ReferenceError: loggerApi is not defined
+    at ChatsDaoMongoDB.addChat (file:///D:/projects/backend/proyecto-final/src/models/daos/chats/ChatsDaoMongoDB.js:27:4)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
+    at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)
+[2022-04-20T08:28:38.751] [ERROR] apisError - ReferenceError: loggerApi is not defined
+    at ChatsDaoMongoDB.addChat (file:///D:/projects/backend/proyecto-final/src/models/daos/chats/ChatsDaoMongoDB.js:27:4)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
+    at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)

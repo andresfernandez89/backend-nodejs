@@ -11,15 +11,15 @@
         <% if(data)  { %>
         <h3 class="text-center m-4 text-primary"><u><%= title %></u></h3>
         <div class="row g-3 d-flex justify-content-center">
-
+            
             <% data.forEach((product)=>{ %>
-            <div id={id} class="col-md-4  d-flex justify-content-center">
-                <div>
-                    <div class="card col-md-3 m-2 rounded-3" style="width: 18rem">
+                <div id={id} class="col-md-4  d-flex justify-content-center">
+                    <div>
+                        <div class="card col-md-3 m-2 rounded-3" style="width: 18rem">
                         <img
-                            src= "<%= product.thumbnail %>"
-                            class="rounded"
-                            alt=<%= product.title %>
+                        src= "<%= product.thumbnail %>"
+                        class="rounded"
+                        alt=<%= product.title %>
                         />
                         <div class="card-body">
                             <h5 class="card-title"><%= product.title %></h5>
@@ -33,13 +33,13 @@
                                 View
                             </a>
                             <% if(dataUser.userRole=="admin")  {%>
-                            <a href="/api/products/form/<%= product.id %>?" class="btn btn-primary fw-bold">
-                                Edit
-                            </a>
-                            <button class="btn btn-danger fw-bold" onclick="sendId(`<%= product.id %>`)"> Delete</button>
-                            <% } else { %>
-                                <button class="btn btn-success fw-bold" onclick="addToCart(`<%= dataUser._id %>`,`<%= product.id %>`)">Add to Cart</button>
-                            <% } %>
+                                <a href="/api/products/form/<%= product.id %>?" class="btn btn-primary fw-bold">
+                                    Edit
+                                </a>
+                                <button class="btn btn-danger fw-bold" onclick="sendId(`<%= product.id %>`)"> Delete</button>
+                                <% } else { %>
+                                    <button class="btn btn-success fw-bold" onclick="addToCart(`<%= dataUser._id %>`,`<%= product.id %>`)">Add to Cart</button>
+                                    <% } %>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,10 @@
 
         <% } else { %>
             <h3 class="mt-4 text-center text-danger">There are not Products</h3>
-        <% } %>
-    </div>
-</body>
-</html>
+            <% } %>
+            <div class=" "><%- include("../partials/chat") %></div>
+        </div>
+        <%- include("../partials/scripts") %>
+        <%- include("../partials/socket") %>
+    </body>
+    </html>
