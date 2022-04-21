@@ -27,9 +27,11 @@
 App require [Node.js](https://nodejs.org/)
 
 Install dependencies
-sh
+
+```sh
 npm i
 npm start
+```
 
 ## .env file
 
@@ -47,12 +49,8 @@ npm start
 
 _You can see an example in the demo.env file_
 
-## Documentacion
-
-https://documenter.getpostman.com/view/17626076/UVsJxSwD#854444aa-2164-4a62-8a7a-48f822ecd6cd
-
 ## Deploy
 
 Deploy on heroku
 
-https://ecommerce-pf.herokuapp.com/
+https://apirest-node-mongo-express.herokuapp.com/
