@@ -142,7 +142,7 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 	const io = require("socket.io")(server);
 
 	io.on("connection", (socket) => {
-		logger.info("Client Conected");
+		logger.info("Connected client");
 		product.getAll().then((data) => {
 			return io.sockets.emit("productsList", data);
 		});
