@@ -13,7 +13,6 @@ export default class UsersDaoMongoDB extends ContainerMongoDB {
 				userEmail: {type: String, required: true, unique: true},
 				password: {type: String, required: true},
 				userName: {type: String, required: true},
-				userAge: {type: Number, required: true, min: 0},
 				userPhone: {type: Number, required: true},
 				userAddress: {type: String, required: true},
 				userRole: {type: String, enum: ["user", "admin"], default: "user"},

@@ -18,9 +18,18 @@ class ChatApi {
 		}
 	}
 
-	async addChat(msn) {
+	async addChat(data) {
 		try {
-			return await this.ChatApi.addChat(msn);
+			let msn = {
+				author: {
+					id: data.email,
+					name: data.name,
+					lastname: data.lastname,
+				},
+				date: data.date,
+				message: data.message,
+			};
+			return await this.ChatApi.add(msn);
 		} catch (error) {
 			loggerApi.error(error);
 		}

@@ -8,8 +8,7 @@ class OrderController {
 	constructor() {}
 	async makeOrder(req, res) {
 		try {
-			const newOrder = await order.makeOrder(req.params.userId, req.body.cartId);
-			res.json(newOrder);
+			return await order.makeOrder(req.params.userId, req.body.cartId);
 		} catch (error) {
 			loggerRoute.warn(error);
 			res

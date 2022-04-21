@@ -1,18 +1,19 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<%- include("../partials/head") %>
+    <head>
+        <%- include("../partials/head") %>
+        <%- include("../partials/scripts") %>
 	</head>
 	<body>
         <div class=" "><%- include("../partials/session") %></div>
         <div class="container">
-        <% if(cart.products.length === 0 || !cart.products)  { %>
-        <div class="text-center mt-4">
-            <h3>No hay productos en el Carrito</h3>
-            <a href="/home" class="btn btn-primary mt-4 fw-bold">Ir a la Tienda</a>
-        </div>
-        <% }else { %>
+            <% if(cart.products.length === 0 || !cart.products)  { %>
+                <div class="text-center mt-4">
+                    <h3>No hay productos en el Carrito</h3>
+                    <a href="/home" class="btn btn-primary mt-4 fw-bold">Ir a la Tienda</a>
+                </div>
+                <% }else { %>
         
         <div class="mt-4">
             <h3>Detalle de Compra</h3>
@@ -37,19 +38,17 @@
                         </tr>
                         <% }) %>
                     </tbody>
-            </table>
-            <% let price=0 %>
-            <% cart.products.map((item)=>{ return price+=parseInt(item.price) }) %></p>
-            <p class="fs-3 fw-bold text-end">Total a pagar  <%= price %></p>
-            <div class="text-center">
-                <a class="btn btn-danger me-2 fw-bold" onClick="emptyCart(`<%= cart._id %>`)">Eliminar Todo</a>
-                <a href="/home" class="btn btn-primary fw-bold">Agregar mas productos</a>
-                <a class="btn btn-success ms-2 fw-bold" onClick="makeOrder(`<%= dataUser.id %>`,`<%= cart._id %>`)">Finalizar Compra</a>
+                </table>
+                <% let price=0 %>
+                <% cart.products.map((item)=>{ return price+=parseInt(item.price) }) %></p>
+                <p class="fs-3 fw-bold text-end">Total a pagar  <%= price %></p>
+                <div class="text-center">
+                    <a class="btn btn-danger me-2 fw-bold" onClick="emptyCart(`<%= cart._id %>`)">Eliminar Todo</a>
+                    <a href="/home" class="btn btn-primary fw-bold">Agregar mas productos</a>
+                    <a class="btn btn-success ms-2 fw-bold" onClick="makeOrder(`<%= dataUser.id %>`,`<%= cart._id %>`)">Finalizar Compra</a>
+                </div>
             </div>
+            <% }  %>
         </div>
-        <% }  %>
-    </div>
-
-
-</body>
+    </body>
 </html>

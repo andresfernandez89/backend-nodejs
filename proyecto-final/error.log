@@ -5958,3 +5958,575 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     at async ChatApi.addChat (file:///D:/projects/backend/proyecto-final/src/services/chatsServices.js:23:11)
     at async Socket.<anonymous> (file:///D:/projects/backend/proyecto-final/index.js:114:5)
+[2022-04-20T18:46:30.746] [ERROR] apisError - The file cannot be written.
+[2022-04-20T18:46:30.747] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.users index: userEmail_1 dup key: { userEmail: "hugo@hotmail.com" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userEmail: 1 },
+  keyValue: { userEmail: 'hugo@hotmail.com' }
+}
+[2022-04-20T18:52:33.330] [ERROR] apisError - The file cannot be written.
+[2022-04-20T18:52:33.330] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.users index: userEmail_1 dup key: { userEmail: "hugo@hotmail.com" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userEmail: 1 },
+  keyValue: { userEmail: 'hugo@hotmail.com' }
+}
+[2022-04-20T19:24:52.214] [ERROR] apisError - The file cannot be written.
+[2022-04-20T19:24:52.215] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.users index: userEmail_1 dup key: { userEmail: "hugo@hotmail.com" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userEmail: 1 },
+  keyValue: { userEmail: 'hugo@hotmail.com' }
+}
+[2022-04-21T18:18:53.913] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:18:58.456] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:18:59.310] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:00.133] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:00.410] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:51.152] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:52.240] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:52.744] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:53.855] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:54.177] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:54.351] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:19:54.681] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:24:27.430] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:24:52.350] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:25:11.428] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:26:41.098] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:28:56.762] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:29:09.007] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:29:32.238] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:29:38.016] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:04.635] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:05.467] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:15.353] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:17.523] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:18.054] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:48.335] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:50.215] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:50.897] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:30:51.169] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:37:48.026] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:38:04.047] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:38:05.470] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:44:05.588] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:44:47.986] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:45:30.163] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T18:50:03.855] [ERROR] apisError - RestException [Error]: Authenticate
+    at success (D:\projects\backend\proyecto-final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\projects\backend\proyecto-final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\projects\backend\proyecto-final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\projects\backend\proyecto-final\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\projects\backend\proyecto-final\node_modules\asap\asap.js:40:19)
+    at flush (D:\projects\backend\proyecto-final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-04-21T19:10:11.343] [ERROR] apisError - The file cannot be written.
+[2022-04-21T19:10:11.344] [ERROR] apisError - MongoServerError: E11000 duplicate key error collection: entrega3-passport-nodemailer-twilio.carts index: userId_1 dup key: { userId: "6254b7f33eec23cc7488bd84" }
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\operations\insert.js:51:33
+    at D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\sdam\server.js:370:9)
+    at MessageStream.messageHandler (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (D:\projects\backend\proyecto-final\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { userId: 1 },
+  keyValue: { userId: '6254b7f33eec23cc7488bd84' }
+}

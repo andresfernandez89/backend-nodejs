@@ -58,7 +58,7 @@ class ProductsController {
 	async editById(req, res) {
 		try {
 			await product.editById(req.params.id, req.body);
-			res.redirect("/home"); // No me permite hacer un redirect;
+			res.redirect("/home");
 		} catch (error) {
 			loggerRoute.warn(error);
 			res.json({
@@ -71,7 +71,7 @@ class ProductsController {
 	async deleteByid(req, res) {
 		try {
 			await product.deleteById(req.params.id);
-			return res.render("/home"); // No me permite hacer un redirect;
+			return res.render("/home");
 		} catch (error) {
 			loggerRoute.warn(error);
 			res.json({

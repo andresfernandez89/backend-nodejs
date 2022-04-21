@@ -23,20 +23,20 @@ class OrderApi {
 				userId: cartUser.userId,
 				products: cartUser.products,
 			};
-
-			/* //Twilio whatsApp
+			const order = await this.OrderApi.add(newOrder);
+			//Twilio whatsApp
 			const message1 = await client.messages.create({
 				body: `New order from ${user.userName}`,
 				from: "whatsapp:+14155238886",
 				to: "whatsapp:+5492236150380",
 			});
-			
+
 			//Twilio SMS
 			const message2 = await client.messages.create({
-				body: `Your order N°${newOrder._id} is in progress!`,
+				body: `Your order N°${order._id} is in progress!`,
 				from: "+18124899160",
 				to: "+5492236150380", //aca pondriamos cel del usuario user.userPhone
-			}); */
+			});
 
 			//Nodemailer
 			const mailOptions = {
@@ -52,7 +52,7 @@ class OrderApi {
 			await transporter.sendMail(mailOptions);
 			cartUser.products = [];
 			this.CartApi.editById(cartUser._id, cartUser);
-			return await this.OrderApi.add(newOrder);
+			return order;
 		} catch (error) {
 			loggerApi.error(error);
 		}

@@ -22,12 +22,12 @@ router.post(
 	"/signup",
 	upload.single("userPhoto"),
 	passport.authenticate("local-signup", {
-		successRedirect: "/login",
+		successRedirect: "/",
 		failureRedirect: "/failSignup",
 	})
 );
 
-router.get("/login", controller.getLogin);
+router.get("/signup", controller.getSignup);
 
 router.get("/failLogin", controller.getFailLogin);
 

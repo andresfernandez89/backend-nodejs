@@ -98,4 +98,5 @@ const makeOrder = async (userId, cartId) => {
 			cartId,
 		}),
 	});
+	location.assign("http://localhost:8080/home");
 };

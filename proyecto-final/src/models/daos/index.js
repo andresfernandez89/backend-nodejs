@@ -46,7 +46,7 @@ export {usersDao, productsDao, cartsDao, ordersDao, chatsDao};
 	}
 	static async getInstance() {
 		if (!instance) {
-			switch (env) {
+			switch (process.env.DB) {
 				case "mongodb":
 					MyClient.connect();
 					const {default: UsersDaoMongoDB} = await import("./users/UsersDaoMongoDB.js");

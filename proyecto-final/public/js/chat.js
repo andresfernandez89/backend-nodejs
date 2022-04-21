@@ -1,5 +1,5 @@
 const socket = io();
-const chatID = document.querySelector("#chat");
+let chatID = document.querySelector("#chat");
 if (chatID) {
 	chatID.addEventListener("submit", function (e) {
 		e.preventDefault();
@@ -7,15 +7,17 @@ if (chatID) {
 			email: document.querySelector("#email").value,
 			name: document.querySelector("#name").value,
 			lastname: document.querySelector("#lastname").value,
-			age: document.querySelector("#age").value,
-			alias: document.querySelector("#alias").value,
-			avatar: document.querySelector("#avatar").value,
 			message: document.querySelector("#message").value,
 			date: `[${moment().format("DD/MM/YYYY HH:mm:ss")}]`,
 			message: document.querySelector("#message").value,
 		};
 		socket.emit("msn", chat);
-		document.querySelector("#message").value = "";
+		let messageID = document.querySelector("#message");
+		if (messageID) {
+			messageID.value = "";
+		} else {
+			console.error(error);
+		}
 	});
 } else {
 	console.error(error);
@@ -32,6 +34,11 @@ socket.on("chat", (data) => {
 			</ul>`;
 		})
 		.join("");
-	document.querySelector("#messages").innerHTML = msn;
-	socket.on("email", (email) => (document.querySelector("#email").value = email));
+	let messagesID = document.querySelector("#messages");
+	if (messagesID) {
+		messagesID.innerHTML = msn;
+		socket.on("email", (email) => (document.querySelector("#email").value = email));
+	} else {
+		console.error(error);
+	}
 });
